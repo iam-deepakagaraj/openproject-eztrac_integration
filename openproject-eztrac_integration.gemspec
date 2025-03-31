@@ -7,8 +7,7 @@ require "open_project/eztrac_integration/version"
 Gem::Specification.new do |s|
   s.name        = "openproject-eztrac_integration"
   s.version     = OpenProject::EztracIntegration::VERSION
-
-  s.authors     = "OpenProject GmbH"
+  s.authors     = "Deepak Nagaraj"
   s.email       = "info@openproject.org"
   s.homepage    = "https://community.openproject.org/projects/eztrac-integration"  # TODO check this URL
   s.summary     = "OpenProject Eztrac Integration"
