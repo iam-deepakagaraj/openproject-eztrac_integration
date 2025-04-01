@@ -31,15 +31,15 @@ module OpenProject::EztracIntegration
     #        if: ->(project) { true }
     # end
 
-    register("openproject-eztrac_integration",
-      :author_url => "https://openproject.org",
-      :requires_openproject => ">= 6.0.0"
-    ) do
-      menu :project_menu, :hello_world, { controller: 'hello', action: 'index' }, after: :settings, param: :project_id
-    end
+    # register("openproject-eztrac_integration",
+    #   :author_url => "https://openproject.org",
+    #   :requires_openproject => ">= 6.0.0"
+    # ) do
+    #   menu :project_menu, :hello_world, { controller: 'hello', action: 'index' }, after: :settings, param: :project_id
+    # end
 
-    # register "openproject-eztrac_integration",
-    #          :author_url => "https://openproject.org",
-    #          :requires_openproject => ">= 6.0.0"
+    register "openproject-eztrac_integration",
+             :author_url => "https://openproject.org",
+             :requires_openproject => ">= 6.0.0"
   end
 end
